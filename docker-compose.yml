@@ -1,6 +1,6 @@
 services:
   node-app:
-    image: moazsayed/docker-node-deployment:tagname
+    image: moazsayed/docker-node-deployment
     ports:
       - "5000:5000"
     depends_on:
