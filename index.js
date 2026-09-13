@@ -27,7 +27,7 @@ pool
     console.log("Not connected", error);
   });
 
-app.get("/", (req, res) => res.send("<h1>moaz sa  said</h1>"));
+app.get("/", (req, res) => res.send("<h1>moaz sayed  said</h1>"));
 
 app.listen(PORT, () => {
   console.log(`app is running on ${PORT}`);
